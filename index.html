@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Escala Motora MAS</title>
+    <style>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</style>
+<link rel="stylesheet" href="{{ url_for('static', filename='stylecss') }}"></head>
+<body>
+    <h1>Escala Motora MAS</h1>
+    <form action="{{ url_for('index') }}" method="POST">
+        <h2>Puntajes:</h2>
+        <label>Puntaje 1: <input type="number" name="puntaje1" min="0" max="6"></label><br>
+        <label>Puntaje 2: <input type="number" name="puntaje2" min="0" max="6"></label><br>
+        <label>Puntaje 3: <input type="number" name="puntaje3" min="0" max="6"></label><br>
+        <label>Puntaje 4: <input type="number" name="puntaje4" min="0" max="6"></label><br>
+        <label>Puntaje 5: <input type="number" name="puntaje5" min="0" max="6"></label><br>
+        <label>Puntaje 6: <input type="number" name="puntaje6" min="0" max="6"></label><br>
+        <label>Puntaje 7: <input type="number" name="puntaje7" min="0" max="6"></label><br>
+        <label>Puntaje 8: <input type="number" name="puntaje8" min="0" max="6"></label><br>
+        <input type="submit" value="Obtener descripción">
+    </form>
+</body>
+</html>

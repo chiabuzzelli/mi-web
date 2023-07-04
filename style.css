@@ -1,0 +1,13 @@
+body {
+  background-color: #173F5F;
+  color: white;
+}
+
+h1 {
+  font-family: Oswald, sans-serif;
+}
+
+label {
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.5;
+}
